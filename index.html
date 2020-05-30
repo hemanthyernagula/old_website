@@ -3,4 +3,36 @@ layout:base
 
 ---
 
-<h1>Testing</h1>
+<section id="blogs">
+    <span style="font-weight: bolder; font-size: 60px; ">Blogs</span>
+    <!-- blogs start -->
+    <div class="card-deck">
+        
+      
+        
+        <div class="row">
+            {% for blog in blogs %}
+            <div class="col-md-6 my-3">
+                <div class="card" style="border-radius: 15px;">
+                    <img class="card-img-top" src="{{ blog.img }}">
+                    <div class="card-body">
+                    <h5 class="card-title"> {{ blog.title }} </h5>
+                    <p class="card-text">{{ blog.summary }}</p>
+                    </div>
+                    <div class="card-footer">
+                    <small style="vertical-align: middle;">Last updated {{ blog.date_created }}</small>
+                    <p><a class="link" href=" {{url_for('showme',title=blog.title)}} ">Read More</a></p>
+                    </div>
+                </div>
+               
+            </div>
+
+            {% endfor %}
+            
+       </div>
+       
+    
+
+      <!-- blogs end -->
+
+</section>
