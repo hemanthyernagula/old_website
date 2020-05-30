@@ -1,0 +1,509 @@
+html, body{
+    height:100%;
+    scroll-behavior: smooth;
+    font-family:  Monospace;
+}
+
+
+:root {
+    --l1-bg-color :linear-gradient(90deg, #f88818, #f3973b,#ffaf60)
+}
+.start {
+    display: flex;
+    height: 100%;
+    
+
+}
+.menu {
+    background: rgb(155, 150, 150);
+    color:black;
+    font-size: medium;
+    width: 300px;
+    height: 100%;
+    padding-top: 50px;
+    align-content: center;
+    position: fixed;
+    border-right: solid gray 1px;
+    display: block;
+}
+
+.menu .image {
+    
+}
+.menu img{
+    height: 200px;
+    width: 200px;
+    /* padding-left: 20px; */
+    /* border-radius: 50%; */
+    /* clip-path: circle(40.7% at 59% 44%); */
+
+
+
+}
+
+.box {
+    list-style-type: none;
+    text-align: center;
+    align-self: center;
+}
+
+ .menu nav {
+    margin-left: 10px;
+    
+    
+}
+
+.menu ul {
+    padding: 0px;
+    margin-left: 0px;
+    min-width: 200px;
+
+}
+.menu li {
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: x-large;
+    
+}
+
+.menu li :hover {
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 3px;
+    font-family: 'Balsamiq Sans', cursive;
+    transition: 0.7;
+
+    
+    
+}
+.menu a {
+    color: black;
+}
+
+
+.content {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.content section {
+    height: 100%;
+    margin-left: 300px;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+
+
+.content section .links  {
+    
+    text-decoration: none;
+    margin-top: 30px;
+    color: chocolate !important;
+    font-size: large;
+    
+}
+
+.content section .links  a {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    transition: 0.7s;
+    border-radius: 10px;
+    
+    
+}
+
+
+.content section .links :hover{
+    
+    text-decoration: none;
+    margin-top: 30px;
+    color: wheat !important;
+    background-color: rgb(155, 150, 150);
+    padding: 10px;
+    transition: 0.7s;
+    
+}
+
+
+
+
+.content section .social_media {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.content section .social_media  a {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    
+}
+
+
+
+.card {
+
+    transition: 0.7s;
+    
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.card:hover {
+    
+    box-shadow: 8px 12px 71px -1px #6d6969;
+    background: linear-gradient(90deg, #f88818, #f3973b,#ffaf60);
+    color: white;
+    font-weight: 500px;
+    border: 0px;
+
+}
+
+.card .card-footer {
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+.card img {
+   
+    transition: 0.7s;
+  }
+
+.card:hover img {
+    transform: scale(1.05);
+    transition: 0.7s;
+  }
+
+.card .card-footer a {
+    color: black;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+  .card .card-footer :hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* my code representation */
+
+blockquote {
+    border-left: solid rgb(114, 102, 230) 5px;
+    background-color: rgba(97, 143, 243, 0.24);
+    margin-right: 20px;
+    
+}
+
+blockquote p {
+    padding-left: 30px;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+pre {
+    
+    background-color:#eeeeee9d;
+    /* border-radius: 10px; */
+    margin-right: 30px;
+    font-style: italic;
+    padding: 10px;
+
+}
+/* my code rep  end */
+
+
+
+/* from git */
+   .pl-c {
+    color: #969896;
+  }
+  
+   .pl-c1,
+   .pl-s .pl-v {
+    color: #0086b3;
+  }
+  
+   .pl-e,
+   .pl-en {
+    color: #795da3;
+  }
+  
+   .pl-smi,
+   .pl-s .pl-s1 {
+    color: #333;
+  }
+  
+   .pl-ent {
+    color: #63a35c;
+  }
+  
+   .pl-k {
+    color: #a71d5d;
+  }
+  
+   .pl-s,
+   .pl-pds,
+   .pl-s .pl-pse .pl-s1,
+   .pl-sr,
+   .pl-sr .pl-cce,
+   .pl-sr .pl-sre,
+   .pl-sr .pl-sra {
+    color: #183691;
+  }
+  
+   .pl-v {
+    color: #ed6a43;
+  }
+  
+   .pl-id {
+    color: #b52a1d;
+  }
+  
+   .pl-ii {
+    color: #f8f8f8;
+    background-color: #b52a1d;
+  }
+  
+   .pl-sr .pl-cce {
+    font-weight: bold;
+    color: #63a35c;
+  }
+  
+   .pl-ml {
+    color: #693a17;
+  }
+  
+   .pl-mh,
+   .pl-mh .pl-en,
+   .pl-ms {
+    font-weight: bold;
+    color: #1d3e81;
+  }
+  
+   .pl-mq {
+    color: #008080;
+  }
+  
+   .pl-mi {
+    font-style: italic;
+    color: #333;
+  }
+  
+   .pl-mb {
+    font-weight: bold;
+    color: #333;
+  }
+  
+   .pl-md {
+    color: #bd2c00;
+    background-color: #ffecec;
+  }
+  
+   .pl-mi1 {
+    color: #55a532;
+    background-color: #eaffea;
+  }
+  
+   .pl-mdr {
+    font-weight: bold;
+    color: #795da3;
+  }
+  
+   .pl-mo {
+    color: #1d3e81;
+  }
+  
+  
+   strong {
+    font-weight: inherit;
+  }
+  
+   strong {
+    font-weight: bolder;
+  }
+  
+   code,
+   kbd,
+   pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  
+   hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  
+   strong {
+    font-weight: 600;
+  }
+  
+   hr {
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+   hr::before {
+    display: table;
+    content: "";
+  }
+  
+   hr::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+   
+   code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+  }
+  
+   pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 16px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+  
+  
+   hr {
+    border-bottom-color: #eee;
+  }
+/* from git */
+
+
+  
+/* ---------------------------- */
+/* 
+HTML CSSResult
+EDIT ON
+.card-wrapper {
+  margin-bottom: 30px;
+}
+.card-image .card .card-img-wrapper {
+  height: 100%;
+}
+.card-image .card .card-body {
+  display: none;
+}
+.card-image-title-description .card .card-img-wrapper {
+  max-height: 160px;
+}
+.card-image-title-description .card {
+  position: relative;
+  min-height: 300px;
+}
+.card-image-title-description .card .card-body {
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-bottom: -70px;
+}
+.card-image-title-description .card:hover .card-body {
+  top: -70px;
+}
+.card-image-title-description .card .card-body .card-title {
+  margin-bottom: .75rem;
+}
+.card {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  height: 100%;
+
+}
+.card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.card-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  overflow: hidden;
+}
+.card-img-wrapper img {
+  transition: 1.5s ease;
+}
+.card:hover .card-img-wrapper img {
+  transform: scale(1.15);
+}
+.card-body .card-title {
+  margin-bottom: calc(50% + 20px);
+  transition: 1.5s ease;
+}
+.card:hover .card-body .card-title {
+  margin-bottom: .75rem;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #fff;
+  transition: 1.5s ease;
+}
+.card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.card:hover .card-body {
+  height: 80%;
+}
+.card:hover .card-content {
+  bottom: 0;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ECE9E6 , #FFFFFF);
+} */
