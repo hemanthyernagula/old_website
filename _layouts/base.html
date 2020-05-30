@@ -16,7 +16,7 @@
     
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }} ">
-    <title>My Portfolio</title>
+    <title>{{ page.title }}</title>
 </head>
 <body>
     
@@ -60,6 +60,7 @@
         <div class="content">
             
             {{ content }}
+
         </div>
         </div>
         
