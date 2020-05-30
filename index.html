@@ -15,9 +15,9 @@ title:Home
         <a href="#">Resume</a>
     </div>
     <div class="social_media">
-        <a href="#contact"><img src="{{ url_for('static',filename='pics/medium.svg') }}" alt=""> </a> 
-        <a href="#contact"> <img src="{{ url_for('static',filename='pics/linkedin.svg') }}" alt=""> </a> 
-        <a href="#contact"> <img src="{{ url_for('static',filename='pics/github.svg') }}" alt=""> </a> 
+        <a href="#contact"><img src="'pics/medium.svg') }}" alt=""> </a> 
+        <a href="#contact"> <img src="'pics/linkedin.svg') }}" alt=""> </a> 
+        <a href="#contact"> <img src="'pics/github.svg') }}" alt=""> </a> 
     </div>
 </section>
 <section id="education">
@@ -74,27 +74,7 @@ title:Home
         
       
         
-        <div class="row">
-            {% for blog in blogs %}
-            <div class="col-md-6 my-3">
-                <div class="card" style="border-radius: 15px;">
-                    <img class="card-img-top" src="{{ blog.img }}">
-                    <div class="card-body">
-                    <h5 class="card-title"> {{ blog.title }} </h5>
-                    <p class="card-text">{{ blog.summary }}</p>
-                    </div>
-                    <div class="card-footer">
-                    <small style="vertical-align: middle;">Last updated {{ blog.date_created }}</small>
-                    <p><a class="link" href=" {{url_for('showme',title=blog.title)}} ">Read More</a></p>
-                    </div>
-                </div>
-               
-            </div>
-
-
-            {% endfor %}
-            
-       </div>
+        
        
     
 
