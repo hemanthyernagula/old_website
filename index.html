@@ -72,7 +72,14 @@ title: Home
             <!-- blogs start -->
             <div class="card-deck">
                 <div class="row">
-                    {% for blog in site.blogs %}
+                    {{ site.blogs }}
+               </div>
+            </div>
+            <!-- blogs end -->
+        </section>
+
+
+        <!-- {% for blog in site.blogs %}
                     <div class="col-md-6 my-3">
                         <div class="card" style="border-radius: 15px;">
                             <img class="card-img-top" src="{{ blog.img }}">
@@ -87,8 +94,4 @@ title: Home
                         </div>
                        
                     </div>
-                    {% endfor %}
-               </div>
-            </div>
-            <!-- blogs end -->
-        </section>
+                    {% endfor %} -->
