@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="linkedin.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 13.229168 13.229166"
+   height="50"
+   width="50">
+  <defs
+     id="defs2">
+    <rect
+       id="rect14"
+       height="50.202869"
+       width="61.289516"
+       y="48.545532"
+       x="33.483952" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-height="788"
+     inkscape:window-width="1440"
+     units="px"
+     width="200mm"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g69"
+     inkscape:document-units="mm"
+     inkscape:cy="62.738198"
+     inkscape:cx="29.307909"
+     inkscape:zoom="4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       d="M 12.477604,6.826818 A 5.9640317,5.9640317 0 0 1 6.5135727,12.79085 5.9640317,5.9640317 0 0 1 0.549541,6.826818 5.9640317,5.9640317 0 0 1 6.5135727,0.86278629 5.9640317,5.9640317 0 0 1 12.477604,6.826818 Z"
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:0.217226"
+       id="path45" />
+    <g
+       style="fill:#ffffff;stroke:#ff6600"
+       transform="matrix(0.7912617,0,0,0.7912617,-2.3575014,3.9871912)"
+       id="g69">
+      <text
+         id="text111"
+         y="6.8029451"
+         x="7.0487041"
+         style="font-style:normal;font-weight:normal;font-size:8.78866px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#ff6600;stroke-width:0.219717"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Tibetan Machine Uni';-inkscape-font-specification:'Tibetan Machine Uni Bold';fill:#ffffff;stroke:#ff6600;stroke-width:0.219717"
+           y="6.8029451"
+           x="7.0487041"
+           id="tspan109"
+           sodipodi:role="line">in</tspan></text>
+    </g>
+  </g>
+</svg>
